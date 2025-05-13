@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/ganerated",
   "textures": {
-    "layer0": "templatemod:item/pink_garnet"
+    "layer0": "template-mod:item/pink_garnet"
   }
 }

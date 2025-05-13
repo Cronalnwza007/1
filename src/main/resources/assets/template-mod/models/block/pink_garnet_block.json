@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "templatemod:block/pink_garnet_block"
+    "all": "template-mod:block/pink_garnet_block"
   }
 }

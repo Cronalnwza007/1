@@ -1,4 +1,6 @@
 {
   "item.template-mod.pink_garnet": "Pink Garnet",
-  "block.template-mod.pink_garnet_block": "Block of Pink Garnet"
+  "block.template-mod.pink_garnet_block": "Block of Pink Garnet",
+
+  "itemgroup.template-mod.pink_garnet_items": "Pink Garnet Items"
 }
