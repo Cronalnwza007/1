@@ -1,5 +1,6 @@
 package com.example.Item;
 
+import com.example.Block.ModBlocks;
 import com.example.TemplateMod;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -19,6 +20,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.template-mod.pink_garnet_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(PINK_GARNET);
+                        entries.add(ModBlocks.PINK_GARNET_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {
