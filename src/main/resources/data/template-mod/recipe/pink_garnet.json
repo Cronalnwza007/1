@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "template-mod:pink_garnet_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "template-mod:pink_garnet"
+  }
+}

@@ -11,6 +11,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 import static com.example.Item.ModItems.PINK_GARNET;
+import static com.example.Item.ModItems.RAW_PINK_GARNET;
 
 public class ModItemGroups {
     public static final ItemGroup PINK_GARNET_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -20,6 +21,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.template-mod.pink_garnet_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(PINK_GARNET);
+                        entries.add(RAW_PINK_GARNET);
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);
                     }).build());
 
